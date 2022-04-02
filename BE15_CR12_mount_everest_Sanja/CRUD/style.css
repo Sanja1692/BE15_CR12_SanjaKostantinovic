@@ -1,0 +1,176 @@
+/* Body style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar logo style */
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/* Hero image style */
+
+.bg-image {
+    background-image: url('/picture/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: row wrap;
+    align-items: center;
+}
+
+
+/* swiper image style */
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: 0.8;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+/* Animals row style */
+
+#result {
+    font-family: 'Kalam', cursive;
+}
+
+.animals {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px black;
+    ;
+}
+
+.card-img-top {
+    float: left;
+    width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.cards-style {
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 10px 5px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #4294cf;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.icons .bi {
+    width: 4.5%;
+    height: 4vh;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.copy-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0567ad;
+    padding-top: 10px;
+}
+
+.summary-image {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.summary-section {
+    background-color: #4294cf;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.card-body {
+    background-color: #4294cf;
+    color: aliceblue;
+    border: 0;
+}
+
+.total-amount {
+    background-color: #4294cf;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+#total {
+    color: aliceblue;
+}
+
+.total-info {
+    display: block;
+    color: aliceblue;
+}
+
+
+/* Start Small screen style */
+
+
+/* @media (max-width: 575.98px) { 
+    .card-img-top{
+        display: none;
+    }
+    .summary-info-titles{
+        display: none;
+    } */
+
+
+}
+@media (max-width: 768.98px) {
+    .summary-info-titles {
+        display: none;
+    }
+}
