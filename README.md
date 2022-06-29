@@ -1,22 +1,4 @@
 Code Review 12
-Good Morning Students!
-
-Welcome to your 12th CodeReview. 
-
-You will need to achieve more than 60 points to pass this CodeReview successfully. 
-
-You will be graded according to the results achieved. Please see the number of points for each task below. 
-
-The grading system has the following rules:
-
-Up to 60 points = red
-
-Between 61 and 79 = yellow
-
-Over 80 = green
-
-You can submit your solution (as GitHub project link) until Saturday at 18:00:00.
-
 
 Project Description:
 "Mount Everest'' is the name of a travel agency from Vienna. They want a nice looking responsive web page where they can advertise their travel offers. "Mount Everest" travel agency also wants that each offer could be shown independently when the user clicks on it or on a button "Details". Whenever that happens, a google maps map should show a pinpoint indicating the location of the current offer.
